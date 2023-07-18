@@ -1,7 +1,7 @@
 const watch = document.querySelector('#watch');
 
 document.querySelector('#buttons').addEventListener('click', (element) => {
-    if(element.target.id === 'start'){
+    if (element.target.id === 'start') {
         start();
     } else if (element.target.id === 'pause') {
         pause();
