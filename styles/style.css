@@ -5,7 +5,9 @@
 }
 
 body {
-    background: hsla(0, 0%, 0%, 0.928);
+    background: url(../public/time.jpg) center/cover;
+    background-color: hsla(0, 0%, 0%, 0.527);
+    background-blend-mode: multiply;
     color: #FFFFFF;
 }
 
@@ -40,6 +42,12 @@ button {
     outline: none;
     border: none;
     cursor: pointer;
-    background: #ed6ad9;
+    background: #5d1b1bc3;
     border-radius: 10px;
+    transition: .5s ease-in-out;
+}
+
+button:hover {
+    background-color: #5d1b1bea;
+    transition: .5s ease-in-out;
 }
