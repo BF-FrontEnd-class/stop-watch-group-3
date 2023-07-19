@@ -1,3 +1,3 @@
 # stop-watch-group-3
 
-![stopwatch](/public/photo.png)
+![stopwatch](/public/stop-watch.png)
