@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&family=Poppins:ital,wght@0,400;0,600;1,300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -31,6 +33,17 @@ body {
 .container .watch {
     font-size: 5rem;
     margin: 35px;
+}
+
+.h1-watch {
+    font-family: 'Nosifer', cursive;
+    color: #5d1b1bea;
+    font-size: 3rem;
+}
+
+.watch {
+    position: relative;
+    left: -2.3rem;
 }
 
 button {

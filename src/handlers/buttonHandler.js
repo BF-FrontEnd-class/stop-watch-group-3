@@ -1,16 +1,15 @@
-// import startTimer from '../utils/startTimer.js';
+import { data } from "../data.js";
 import stopTimer from "../utils/stopTimer.js";
 import resetTimer from "../utils/resetTimer.js";
-import { data } from "../data.js";
-import showTime from "../components/showTime.js";
 import getTime from "../utils/getTime.js";
+import showTime from "../components/showTime.js";
 
 const buttonsHandler = (e) => {
   if (e.target.id === "start") {
     if (!data.isTimerRunning) {
       data.timerInterval = setInterval(() => {
-        getTime();
         showTime();
+        getTime();
       }, 1);
       data.isTimerRunning = true;
     }

@@ -4,7 +4,7 @@ export const data = {
   isTimerRunning: false,
   minutes: "00",
   seconds: "00",
-  milliseconds: "000",
+  milliseconds: "00",
 };
 
 export const dom = {

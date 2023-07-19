@@ -1,7 +1,7 @@
 import { data } from "../data.js";
 
 const getTime = () => {
-  data.date.setMilliseconds(data.date.getMilliseconds() + 1);
+  data.date.setMilliseconds(data.date.getMilliseconds() + 5);
   data.minutes =
     data.date.getMinutes() < 10
       ? `0${data.date.getMinutes()}`
